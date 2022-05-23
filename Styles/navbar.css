@@ -1,0 +1,174 @@
+body{
+  background-color: #121317;
+}
+#navBar{
+    background-color: #121317;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    /* margin-top: 2%; */
+    align-items: center;
+    font:16px Roboto-Regular,Sans-Serif;
+    color:#838991;
+    
+  }
+  #fourthBox>div>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+  }
+  #fourthbox{
+    border:1px solid red;
+
+  }
+  #fourthBox>div{
+    display: flex;
+    gap: 7px;
+    margin-left:10%;
+    /* border:1px solid red; */
+    margin-left: 3%;
+
+  }
+  #fourthBox>div>input{
+    padding: 10px;
+    width: 350px;
+    background-color: #121317;
+    font-size: 16px;
+    font:16px Roboto-Regular,Sans-Serif;
+   
+    border: none;
+    outline: none;
+  }
+  #secondBox>img{
+    width: 200px;
+  }
+  #fourthBox>hr{
+    border: .1px solid rgba(245, 245, 245, 0.135);
+    margin-bottom: 0;
+    width:380px;
+    margin-left: 6%;
+    margin-top: 0%;
+
+  }
+  #firstBox>div{
+   /* border: 1px solid red; */
+   width:25px;
+
+  }
+  #firstBox>div>hr{
+    border: 1px solid white;
+    background-color: white;
+    width:70%;
+
+  }
+  #thirdBox>div{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 120%;
+    margin-left: -20%;
+
+  }
+  #thirdBox>div>a:hover{
+    color:white;
+  }
+  #thirdBox>div>a{
+    text-decoration: none;
+    /* color: white; */
+    color:#838991;
+  }
+  #navBar>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #fifthBox>button{
+    padding: 10px;
+    font-weight: 600;
+    background-color: #237ce6;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font:16px Roboto-Regular,Sans-Serif;
+  }
+  .navbar-hamburger{
+    border: 1px solid red;
+    width:200px;
+    margin-left: 2%;
+    margin-top: 1%;
+    background-color:black;
+    border: 1px solid black;
+
+
+  }
+  .hamburger{
+    /* border: 1px solid blue; */
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+  
+    
+
+  }
+  #hamburger-box1{
+    /* border: 1px solid green; */
+    width: 100%;
+    background-color: #282d33;
+    color:white;
+    font:16px Roboto-Regular,Sans-Serif;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    
+  }
+  #hamburger-box2{
+    font:16px Roboto-Regular,Sans-Serif;
+    width: 100%;
+    /* border: 1px solid green; */
+    color:#838991;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+  }
+  .navbar-hamburger-bottomBox{
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    
+
+  }
+  .navbar-hamburger-bottomBox-div1{
+    display: flex;
+    /* border: 1px solid blue; */
+    height:20px;
+    color:#838991;
+    font:16px Roboto-Regular,Sans-Serif;
+    margin-top: 10%;
+  }
+  .navbar-hamburger-bottomBox-img1{
+    height: 20px;
+    width:30px;
+    padding-left: 4%;
+
+  }
+  .navbar-hamburger-bottomBox-div1>p{
+    /* border: 1px solid green; */
+    margin-top: 1%;
+    font-size: 100%;
+    margin-left: 6%;
+    text-align: center;
+  }
+
+
+
+
