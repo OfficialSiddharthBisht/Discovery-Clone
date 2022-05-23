@@ -1,4 +1,30 @@
 {
+  "slideshow":[
+  {
+          "title":"Ganganyaan Bharat Ki Antariksh Udaan",
+          "subtitle":"India's brightest minds are set to chart new paths in space and history",
+          "img":"https://ap2-prod-images.disco-api.com/2022/05/09/b2e4c5fd-aafe-44c2-8bb5-04e3532b357d.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+          "category":"Science Space"
+  },
+  {
+    "title":"Bablu Dablu",
+    "subtitle": "Vicky, Carly, Briar and Bramble have new adventures on Pine Tree Mountain.",
+    "img":"https://ap2-prod-images.disco-api.com/2022/05/20/0761d7a2-323f-4108-9365-a35b2f3e2104.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+    "category":"Animated Kids"
+  },
+  {
+    "title":"Michael Jackson:A Faking It Special",
+    "subtitle": "Criminals portray themselves as victims to hide their guilt.",
+    "img":"https://ap2-prod-images.disco-api.com/2022/05/11/043cd52f-50cc-49b7-837e-74ee8715a1da.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+    "category":"Investigation Crime"
+  },
+  {
+    "title": "Legends of The Ramayana With Amish",
+    "subtitle": "Amish Tripathi traverses 5,000 kilometers in the footsteps of Rama.",
+    "img":"https://ap2-prod-images.disco-api.com/2022/04/12/47db0637-c688-4991-a42e-88123117293a.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+    "category":"Civilizations People & Culture History"
+  }
+  ],
   "data": [
       {
           "id":1,
