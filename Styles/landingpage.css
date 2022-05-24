@@ -1,0 +1,12 @@
+#landingpage-firstimage{
+    border: 1px solid black;
+    
+    
+}
+#landingpage-firstimage>img{
+
+    height: 100px;
+    width: 900px;
+    padding-left: 400px;
+    
+}
