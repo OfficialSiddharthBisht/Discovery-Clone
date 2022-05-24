@@ -1,4 +1,134 @@
 {
+  "mindblown": [
+    {
+      "title": "That's Elephantastic!",
+      "subtitle": "Explore the world of these mighty mammals",
+      "img": "https://ap2-prod-images.disco-api.com/2020/2/28/82f106f9-2e54-4eb4-b338-7fc71d15835c.jpg?f=jpg&p=true&q=85&w=1024"
+    },
+    {
+      "title": "On The Indian Tiger Trail",
+      "subtitle": "Beloved and feared in equal measures,few big cats inspire as much awe in India as the tiger.",
+      "img" :"https://ap2-prod-images.disco-api.com/2020/2/26/3347de81-d535-4eb7-8350-002e17b7b50d.jpg?f=jpg&p=true&q=85&w=1024"
+    },
+    {
+      "title": "Science vs God",
+      "subtitle": "Faith and fact have been at loggerheads for centuries. Watch some of the most compelling arguments by scientists here.",
+      "img": "https://ap2-prod-images.disco-api.com/2020/1/23/1ba32b51-a3b6-4b62-af7c-5c0a0a06f084.jpg?f=jpg&p=true&q=85&w=1024"
+    },
+    {
+      "title": "Nature's Uncanny Mysteries",
+      "subtitle": "Scientists attempt to answer some of the universe's pressing questions.",
+      "img":"https://ap2-prod-images.disco-api.com/2020/4/19/229b4e2f-4e33-47f3-aee1-7e603bca0552.jpg?f=jpg&p=true&q=85&w=1024"
+    },
+    {
+      "title": "Zig & Sharko",
+      "subtitle": "A shark will do anything to protect a mermaid from a famished hyena.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/01/17/0082c2ce-002c-47ec-9a59-dbe309df2fcb.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "kids"
+    },
+    {
+      "title": "Return of Little Singham",
+      "subtitle": "A nine-year-old boy battles evil villains that are out to create chaos.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/12/13/99da175a-6dc6-4cf5-b128-f84e5ead1d77.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "kids"
+    },
+    {
+      "title": "Killer Instincts",
+      "subtitle": "In the animal kingdom's daily battles, these predators fight to survive.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/09/03/dd722224-5dd4-4861-9179-38d0a1aa1d81.jpeg?bf=0&f=jpg&p=true&q=85&w=1000",
+      "category": "animals"
+    },
+    {
+      "title": "Big Cat Tales",
+      "subtitle": "Documenting the lives of big cats residing in Maasai Mara National Reserve.",
+      "img": "https://ap2-prod-images.disco-api.com/2020/09/25/75f408d2-307f-4fa5-9a80-078fca8ca65e.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "animals"
+    },
+    {
+      "title": "Supergiant Animals",
+      "subtitle": "Steve Backshall meets the planet's largest and most charismatic species.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/11/26/8c895b40-fdb4-43b0-be60-769b193d9c0f.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "animals"
+    },
+    {
+      "title": "Lair Of The Great White",
+      "subtitle": "Experts find out what's making Australian great whites so aggressive.",
+      "img": "https://ap2-prod-images.disco-api.com/2020/09/05/13bf327f-7f5a-4a54-8af0-449bce732219.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "animals"
+    },
+    {
+      "title": "Shark Tank",
+      "subtitle": "Budding entrepreneurs get the chance to secure lucrative business deals.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/12/29/432efa03-7d71-4def-85a2-5b37df1128e5.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "lifestyle"
+    },
+    {
+      "title": "Celebrity IOU",
+      "subtitle": "Celebrities show gratitude to their loved ones with big home renovations.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/06/21/44304a1d-c161-43ed-a566-3c5b53ebc3b3.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "lifestyle"
+    },
+    {
+      "title": "Hawaii Life",
+      "subtitle": "Real estate brokers turn their clients' island dreams into a reality.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/11/19/954aea4a-745a-4df6-b719-b08fc4dfd117.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "lifestyle"
+    },
+    {
+      "title": "60 Days In",
+      "subtitle": "Seven innocent volunteers go to jail without anyone knowing their secret.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/06/19/85ee4e5d-5e35-4a61-b516-d0b56c954111.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "lifestyle"
+    },
+    {
+      "title": "Ganganyaan Bharat Ki Antariksh Udaan",
+      "subtitle": "India's brightest minds are set to chart new paths in space and history",
+      "img": "https://ap2-prod-images.disco-api.com/2022/05/09/b2e4c5fd-aafe-44c2-8bb5-04e3532b357d.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Science Space"
+    },
+    {
+      "title": "Bablu Dablu",
+      "subtitle": "Vicky, Carly, Briar and Bramble have new adventures on Pine Tree Mountain.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/05/20/0761d7a2-323f-4108-9365-a35b2f3e2104.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Animated Kids"
+    },
+    {
+      "title": "Michael Jackson:A Faking It Special",
+      "subtitle": "Criminals portray themselves as victims to hide their guilt.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/05/11/043cd52f-50cc-49b7-837e-74ee8715a1da.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Investigation Crime"
+    },
+    {
+      "title": "Legends of The Ramayana With Amish",
+      "subtitle": "Amish Tripathi traverses 5,000 kilometers in the footsteps of Rama.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/04/12/47db0637-c688-4991-a42e-88123117293a.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Civilizations People & Culture History"
+    },
+    {
+      "title": "Ganganyaan Bharat Ki Antariksh Udaan",
+      "subtitle": "India's brightest minds are set to chart new paths in space and history",
+      "img": "https://ap2-prod-images.disco-api.com/2022/05/09/b2e4c5fd-aafe-44c2-8bb5-04e3532b357d.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Science Space"
+    },
+    {
+      "title": "Bablu Dablu",
+      "subtitle": "Vicky, Carly, Briar and Bramble have new adventures on Pine Tree Mountain.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/05/20/0761d7a2-323f-4108-9365-a35b2f3e2104.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Animated Kids"
+    },
+    {
+      "title": "Michael Jackson:A Faking It Special",
+      "subtitle": "Criminals portray themselves as victims to hide their guilt.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/05/11/043cd52f-50cc-49b7-837e-74ee8715a1da.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Investigation Crime"
+    },
+    {
+      "title": "Legends of The Ramayana With Amish",
+      "subtitle": "Amish Tripathi traverses 5,000 kilometers in the footsteps of Rama.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/04/12/47db0637-c688-4991-a42e-88123117293a.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
+      "category": "Civilizations People & Culture History"
+    }
+  ],
   "slideshow": [
     {
       "title": "Ganganyaan Bharat Ki Antariksh Udaan",
