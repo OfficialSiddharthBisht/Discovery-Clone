@@ -51,7 +51,9 @@ function displayData(data){
     imageLinkHead.innerText = "Image Link";
     let categoryHead = document.createElement("th");
     categoryHead.innerText = "CATEGORY";
-    thead.append(idHead,titleHead,subTitleHead,imageLinkHead,categoryHead);
+    let deleteHead = document.createElement("th");
+    deleteHead.innerText = "DELETE";
+    thead.append(idHead,titleHead,subTitleHead,imageLinkHead,categoryHead,deleteHead);
     data.forEach(element => {
         let tableRow = document.createElement("tr");
         let id = document.createElement("td");
@@ -64,11 +66,21 @@ function displayData(data){
         imgSrc.innerText = element.img;
         let category = document.createElement("td");
         category.innerText = element.category;
-        tableRow.append(id , title,subtitles,imgSrc,category);
+        let del = document.createElement("td");
+        let delBtn = document.createElement("button");
+        delBtn.innerText = "DELETE";
+        del.append(delBtn);
+        tableRow.append(id , title,subtitles,imgSrc,category,del);
         tbody.append(tableRow);
+        // delBtn.addEventListener('click',deleteElement(element.id));
     });
     table.append(thead,tbody);
     container.append(table);    
 }
-
+// async function deleteElement(ids){
+//     let response = await fetch(`http://localhost:3000/data/${ids}`,{
+//         method : "DELETE"
+//     });
+//     displayData();
+// }
 fetchData();
