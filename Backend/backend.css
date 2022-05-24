@@ -2,3 +2,10 @@ table , th , td {
     border: 1px solid black;
     padding: 2px;
 }
+#dataAddForm{
+    text-align: center;
+}
+#dataAddForm *{
+    text-align: center;
+    margin: 4px;
+}
