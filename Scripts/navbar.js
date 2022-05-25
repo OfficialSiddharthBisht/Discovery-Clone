@@ -85,3 +85,13 @@ function navbarDisplay(isTrue)
      
    
 }
+
+// navbar end
+
+// sign in
+function sign()
+{
+
+   window.location.href="sign.html"
+   
+}
