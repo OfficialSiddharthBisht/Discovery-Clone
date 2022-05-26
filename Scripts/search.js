@@ -19,13 +19,11 @@ function search() {
               let image= document.createElement("img");
               image.src = element.img;
               searchImgBox.appendChild(image);
-
               let title = document.createElement("h3");
-              title.innerText = element.title;
-              
+              title.innerText = element.title;              
               let subtitle= document.createElement("p");
               subtitle.innerText = element.subtitle;
-              card.append(title,subtitle);
+              card.append(searchImgBox,title,subtitle);
               P.append(card)        
           }
         });
