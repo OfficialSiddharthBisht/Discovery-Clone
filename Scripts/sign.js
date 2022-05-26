@@ -3,7 +3,7 @@ document.querySelector("#signOTP").addEventListener("click",() => {
     
     var userData={
         "name":document.querySelector("#name").value,
-        "email":document.querySelector("#email").value,
+        // "email":document.querySelector("#email").value,
         "mobile":document.querySelector("#mobileNumber").value,
         "password":document.querySelector("#Password").value,
     }
@@ -22,6 +22,8 @@ async function signup(userData)
     });
     let data=await result.json();
     // console.log(data)
+    // document.querySelector("#signOTP").style.backgroundcolor="blue"
+    
     window.location.href="landingpage.html"
     
    }catch(error){
