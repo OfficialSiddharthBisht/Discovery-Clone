@@ -82,8 +82,6 @@ function navbarDisplay(isTrue)
    let displayBox= document.querySelector("#navbarhamburgerbox");
    displayBox.innerHTML="";
  }
-     
-   
 }
 
 // navbar end
@@ -91,7 +89,5 @@ function navbarDisplay(isTrue)
 // sign in
 function sign()
 {
-
    window.location.href="sign.html"
-   
 }
