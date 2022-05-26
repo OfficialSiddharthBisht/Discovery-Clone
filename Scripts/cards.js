@@ -1,7 +1,7 @@
-let container = document.getElementById("container");
+let container = document.getElementById("card-container");
 let url = "http://localhost:3000/data";
 
-let headings = ["Shows You Love" , "Newly Added Shows" , "Stream For Free Now" ,"Coming Soon On Discovery+", "Your Favourites , Aab Hindi Mein"];
+let headings = ["Shows You Love" , "Newly Added Shows" , "Stream For Free Now" ,"Coming Soon On Discovery+", "Your Favourites , Aab Hindi Mein", "Discovery+ India Originals" ,"Kids Specials" , "Cartoons"];
 
 function fetchData(){
     fetch(url)
@@ -15,19 +15,25 @@ function fetchData(){
         console.log(error);
     });
 }
+
 function displayCard(data){
-    let i = 0;
-    data.forEach(element => {
+    let curr = 0;
+   for(let i = 0; i < headings.length;i++){
+        container.append(headings[i])
         let cardRow = document.createElement("div");
+       for(let j = curr; j < curr + 4; j++){
+        cardRow.setAttribute("class","card-row");
         let card = document.createElement("div");
         card.setAttribute("class","card");
         let title = document.createElement("p");
-        title.innerText = element.title;
+        title.innerText = data[j].title;
         let image= document.createElement("img");
-        image.src = element.img;
+        image.src = data[j].img;
         card.append(title,image);
         cardRow.append(card);
-        container.append(cardRow)        
-    });
+       }
+       container.append(cardRow) 
+       curr = curr + 4;
+   }
 }
 fetchData();
