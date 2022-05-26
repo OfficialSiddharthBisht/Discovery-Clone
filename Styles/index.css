@@ -1,11 +1,16 @@
 body {
-    background-color: rgb(26, 28, 33);
+  background-color: rgb(26, 28, 33);
   }
-  #container {
-    margin: 85px 5% 25px 5%;
+  #card-container {
+    color: white;
+    margin: auto;
+    width: 95%;
+  }
+  .card-row{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    padding: 2%;
+    gap: 1%;
   }
   .card img {
     border-radius: 15px;

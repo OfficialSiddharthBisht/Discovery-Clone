@@ -1,4 +1,246 @@
 {
+  "kids":[
+    {
+    "title" : "Little Singham",
+    "subtitle": "A nine-year-old boy battles evil villains that are out to create chaos.",
+    "img" :"https://ap2-prod-images.disco-api.com/2021/02/15/9f2ced44-aa3a-4f1d-8f60-a103e06de0f5.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title": "The Tom and Jerry Show",
+      "subtitle": "This cartoon follows the antics of cat Tom in his pursuit of mouse Jerry.",
+      "img":"https://ap2-prod-images.disco-api.com/2022/01/07/6a422c8d-06e5-44b5-bdde-1b5386692c3d.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title": "Mr Bean Animated Series",
+      "subtitle": "Mr Bean is a young bean who is a member of the Bean Gang, a gang of bean-like people.",
+      "img" :"https://ap2-prod-images.disco-api.com/2022/05/02/03278b75-c604-4079-9729-d2b1b77c8c10.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title" : "Ben 10",
+      "subtitle" : "Ben discovers an alien watch that allows him to transform into aliens.",
+      "img" : "https://ap2-prod-images.disco-api.com/2021/10/21/e3e7ba89-144e-489f-bc33-009de1c51235.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title":"Little Singham Kal Ki Tabaahi",
+      "subtitle":"A nine-year-old boy battles evil villans",
+      "img": "https://ap2-prod-images.disco-api.com/2021/10/05/e2615b8b-c4a9-4570-b7b3-d17b7fe582cc.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title":"Little Singham Kal Ki Tabaahi",
+      "subtitle":"A nine-year-old boy battles evil villans",
+      "img" : "https://ap2-prod-images.disco-api.com/2021/02/18/80a8bf16-5be9-42a8-89fe-b27427454dbe.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title": "Return of Little Singham",
+      "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+      "img":"https://ap2-prod-images.disco-api.com/2021/12/13/99da175a-6dc6-4cf5-b128-f84e5ead1d77.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title": "Kans aur Kaal Ka Raaj",
+      "subtitle" :"A nine-year-old battle against evil villains that are out to create chaos.",
+      "img":"https://ap2-prod-images.disco-api.com/2021/12/08/5ba7be79-71d5-4238-b4f5-56be697e1875.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title" : "Little Singham Paap Aur Panya KA Mahasangram",
+      "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+      "img" :"https://ap2-prod-images.disco-api.com/2022/03/09/4397fa6d-0a70-48a5-b873-b0af5e88cc51.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" :"Little Singham Pyramids aur Ka Rahasya",
+      "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+      "img": "https://ap2-prod-images.disco-api.com/2022/04/29/b368b6b2-ce0c-41f3-9673-fa27734e533e.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title":"Super Squad In Kojima Island",
+      "subtitle" : "A nine-year-old battle against evil villains that are out to create chaos.",
+      "img" : "https://ap2-prod-images.disco-api.com/2022/04/04/c5c30470-e16a-4d2b-b721-e63e8019f8db.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Shaitan Ka Toofan",
+      "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+      "img":"https://ap2-prod-images.disco-api.com/2022/05/08/fee86bc0-b7c1-4967-9c40-3658f8f8cdb7.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title": "Mr Bean Animated Series",
+      "subtitle": "Mr Bean is a young bean who is a member of the Bean Gang, a gang of bean-like people.",
+      "img" :"https://ap2-prod-images.disco-api.com/2022/05/02/03278b75-c604-4079-9729-d2b1b77c8c10.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+    },
+    {
+      "title" : "The Powerpuff Girls",
+      "subtitle" : "Blossom, Bubbles and Buttercup form the superhero team The Powerpuff Girls!",
+      "img" :"https://ap2-prod-images.disco-api.com/2021/10/21/ef57f4ee-22b7-4ce1-8084-b858d82bbc3c.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "baby Looney Tunes",
+      "subtitle" : "Bugs, Daffy, Sylvester, Tweety and the gang have adventures as toddlers.",
+      "img" : "https://ap2-prod-images.disco-api.com/2021/10/28/48587a0d-7b4e-4a46-97a9-1e0d161c5ccf.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Horrid Henry",
+      "subtitle": "To his family's frustration, Henry is skilled at making trouble.",
+      "img" :"https://ap2-prod-images.disco-api.com/2021/05/03/ffe69674-a2da-4d2a-b3a2-296d52632a01.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Swami Ayyappan",
+      "subtitle" : "Swami Ayyappan is the son of Shiva and Vishnu, born to destroy evil.",
+      "img": "https://ap2-prod-images.disco-api.com/2021/06/10/47d2a33b-86e3-443d-8a36-d05976a4855a.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Hanuman: The Immortal 2",
+      "subtitle" : "Only Hanuman can stop the evil plans of the demon warrior Raaka.",
+      "img" : "https://ap2-prod-images.disco-api.com/2021/05/05/26625ecf-ee41-4395-b535-32d4f9addefb.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title": "Mahayodha Kisna",
+      "subtitle" : "Kisna and his ability to solve problems with friends leads to adventures.",
+      "img" : "https://ap2-prod-images.disco-api.com/2021/07/11/126abddb-6d46-4dbb-a332-1d764c8a5e14.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Mahayodha Kisna: Mahanaag",
+      "subtitle" : "Kisna and his ability to solve problems with friends leads to adventures.",
+      "img" : "https://ap2-prod-images.disco-api.com/2021/06/12/c4768e5b-40f1-4b3c-a86e-f8d232627c83.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Food Factory",
+      "subtitle" : "Raw ingredients are transformed into favorite tasty treats.",
+      "img" : "https://ap2-prod-images.disco-api.com/2020/02/26/37504c86-4739-4d18-9445-31c4bd3d9ced.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Seven Wonders of the Solar System",
+      "subtitle": "Physicist Brian Cox hosts this exploration of the solar system.",
+      "img" : "https://ap2-prod-images.disco-api.com/2021/01/29/884eef70-d774-46a1-9c86-5eb3cddec1cf.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "How It's Made",
+      "subtitle" : "How it's made is a documentary about the food industry.",
+      "img" : "https://ap2-prod-images.disco-api.com/2020/02/27/06a72e85-b00b-42fe-996f-d9879b39827f.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "How Factories Changed The World",
+      "subtitle" : "How factories changed the world. No technological innovation has changed the world more than the factory.",
+      "img" : "https://ap2-prod-images.disco-api.com/2020/12/08/7cdc1d88-97f4-48aa-8db4-8ebbe6a8d690.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+    },
+    {
+      "title" : "Little Singham",
+      "subtitle": "A nine-year-old boy battles evil villains that are out to create chaos.",
+      "img" :"https://ap2-prod-images.disco-api.com/2021/02/15/9f2ced44-aa3a-4f1d-8f60-a103e06de0f5.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title": "The Tom and Jerry Show",
+        "subtitle": "This cartoon follows the antics of cat Tom in his pursuit of mouse Jerry.",
+        "img":"https://ap2-prod-images.disco-api.com/2022/01/07/6a422c8d-06e5-44b5-bdde-1b5386692c3d.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title": "Mr Bean Animated Series",
+        "subtitle": "Mr Bean is a young bean who is a member of the Bean Gang, a gang of bean-like people.",
+        "img" :"https://ap2-prod-images.disco-api.com/2022/05/02/03278b75-c604-4079-9729-d2b1b77c8c10.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title" : "Ben 10",
+        "subtitle" : "Ben discovers an alien watch that allows him to transform into aliens.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/10/21/e3e7ba89-144e-489f-bc33-009de1c51235.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title":"Little Singham Kal Ki Tabaahi",
+        "subtitle":"A nine-year-old boy battles evil villans",
+        "img": "https://ap2-prod-images.disco-api.com/2021/10/05/e2615b8b-c4a9-4570-b7b3-d17b7fe582cc.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title":"Little Singham Kal Ki Tabaahi",
+        "subtitle":"A nine-year-old boy battles evil villans",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/02/18/80a8bf16-5be9-42a8-89fe-b27427454dbe.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title": "Return of Little Singham",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img":"https://ap2-prod-images.disco-api.com/2021/12/13/99da175a-6dc6-4cf5-b128-f84e5ead1d77.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title": "Kans aur Kaal Ka Raaj",
+        "subtitle" :"A nine-year-old battle against evil villains that are out to create chaos.",
+        "img":"https://ap2-prod-images.disco-api.com/2021/12/08/5ba7be79-71d5-4238-b4f5-56be697e1875.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title" : "Little Singham Paap Aur Panya KA Mahasangram",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img" :"https://ap2-prod-images.disco-api.com/2022/03/09/4397fa6d-0a70-48a5-b873-b0af5e88cc51.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" :"Little Singham Pyramids aur Ka Rahasya",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img": "https://ap2-prod-images.disco-api.com/2022/04/29/b368b6b2-ce0c-41f3-9673-fa27734e533e.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title":"Super Squad In Kojima Island",
+        "subtitle" : "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img" : "https://ap2-prod-images.disco-api.com/2022/04/04/c5c30470-e16a-4d2b-b721-e63e8019f8db.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "Shaitan Ka Toofan",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img":"https://ap2-prod-images.disco-api.com/2022/05/08/fee86bc0-b7c1-4967-9c40-3658f8f8cdb7.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title": "Mr Bean Animated Series",
+        "subtitle": "Mr Bean is a young bean who is a member of the Bean Gang, a gang of bean-like people.",
+        "img" :"https://ap2-prod-images.disco-api.com/2022/05/02/03278b75-c604-4079-9729-d2b1b77c8c10.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "title" : "The Powerpuff Girls",
+        "subtitle" : "Blossom, Bubbles and Buttercup form the superhero team The Powerpuff Girls!",
+        "img" :"https://ap2-prod-images.disco-api.com/2021/10/21/ef57f4ee-22b7-4ce1-8084-b858d82bbc3c.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "baby Looney Tunes",
+        "subtitle" : "Bugs, Daffy, Sylvester, Tweety and the gang have adventures as toddlers.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/10/28/48587a0d-7b4e-4a46-97a9-1e0d161c5ccf.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "Horrid Henry",
+        "subtitle": "To his family's frustration, Henry is skilled at making trouble.",
+        "img" :"https://ap2-prod-images.disco-api.com/2021/05/03/ffe69674-a2da-4d2a-b3a2-296d52632a01.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "Swami Ayyappan",
+        "subtitle" : "Swami Ayyappan is the son of Shiva and Vishnu, born to destroy evil.",
+        "img": "https://ap2-prod-images.disco-api.com/2021/06/10/47d2a33b-86e3-443d-8a36-d05976a4855a.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "Hanuman: The Immortal 2",
+        "subtitle" : "Only Hanuman can stop the evil plans of the demon warrior Raaka.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/05/05/26625ecf-ee41-4395-b535-32d4f9addefb.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title": "Mahayodha Kisna",
+        "subtitle" : "Kisna and his ability to solve problems with friends leads to adventures.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/07/11/126abddb-6d46-4dbb-a332-1d764c8a5e14.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "Mahayodha Kisna: Mahanaag",
+        "subtitle" : "Kisna and his ability to solve problems with friends leads to adventures.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/06/12/c4768e5b-40f1-4b3c-a86e-f8d232627c83.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "Food Factory",
+        "subtitle" : "Raw ingredients are transformed into favorite tasty treats.",
+        "img" : "https://ap2-prod-images.disco-api.com/2020/02/26/37504c86-4739-4d18-9445-31c4bd3d9ced.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "Seven Wonders of the Solar System",
+        "subtitle": "Physicist Brian Cox hosts this exploration of the solar system.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/01/29/884eef70-d774-46a1-9c86-5eb3cddec1cf.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "How It's Made",
+        "subtitle" : "How it's made is a documentary about the food industry.",
+        "img" : "https://ap2-prod-images.disco-api.com/2020/02/27/06a72e85-b00b-42fe-996f-d9879b39827f.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "title" : "How Factories Changed The World",
+        "subtitle" : "How factories changed the world. No technological innovation has changed the world more than the factory.",
+        "img" : "https://ap2-prod-images.disco-api.com/2020/12/08/7cdc1d88-97f4-48aa-8db4-8ebbe6a8d690.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      }
+  ],
   "mindblown": [
     {
       "title": "That's Elephantastic!",
@@ -8,7 +250,7 @@
     {
       "title": "On The Indian Tiger Trail",
       "subtitle": "Beloved and feared in equal measures,few big cats inspire as much awe in India as the tiger.",
-      "img" :"https://ap2-prod-images.disco-api.com/2020/2/26/3347de81-d535-4eb7-8350-002e17b7b50d.jpg?f=jpg&p=true&q=85&w=1024"
+      "img": "https://ap2-prod-images.disco-api.com/2020/2/26/3347de81-d535-4eb7-8350-002e17b7b50d.jpg?f=jpg&p=true&q=85&w=1024"
     },
     {
       "title": "Science vs God",
@@ -18,7 +260,7 @@
     {
       "title": "Nature's Uncanny Mysteries",
       "subtitle": "Scientists attempt to answer some of the universe's pressing questions.",
-      "img":"https://ap2-prod-images.disco-api.com/2020/4/19/229b4e2f-4e33-47f3-aee1-7e603bca0552.jpg?f=jpg&p=true&q=85&w=1024"
+      "img": "https://ap2-prod-images.disco-api.com/2020/4/19/229b4e2f-4e33-47f3-aee1-7e603bca0552.jpg?f=jpg&p=true&q=85&w=1024"
     },
     {
       "title": "Zig & Sharko",
@@ -325,18 +567,148 @@
       "category": "Civilizations People & Culture History"
     },
     {
-      "id": "25",
-      "title": "Ancient Aliens",
-      "subtitle": "Scientists investigate ancient ruins and texts from around the world.",
-      "image": "https://ap2-prod-images.disco-api.com/2022/05/17/006c4c8f-fbcf-4266-98e4-920a4c2e64d9.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
-      "category": "Investigation Science Mystery History"
-    },
-    {
-      "id": "26",
-      "title": "Man vs. Wild",
-      "subtitle": "Bear Grylls shows how to survive the toughest and most-remote environments.",
-      "image": "https://ap2-prod-images.disco-api.com/2020/09/09/120f1dbd-01fa-42db-a631-9f4a41244e55.jpeg?bf=0&f=jpg&p=true&q=85&w=600",
-      "category": "adventure"
-    }
+      "id" : 25,
+      "title" : "Little Singham",
+      "subtitle": "A nine-year-old boy battles evil villains that are out to create chaos.",
+      "img" :"https://ap2-prod-images.disco-api.com/2021/02/15/9f2ced44-aa3a-4f1d-8f60-a103e06de0f5.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id" : 26,
+        "title": "The Tom and Jerry Show",
+        "subtitle": "This cartoon follows the antics of cat Tom in his pursuit of mouse Jerry.",
+        "img":"https://ap2-prod-images.disco-api.com/2022/01/07/6a422c8d-06e5-44b5-bdde-1b5386692c3d.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id" : 27,
+        "title": "Mr Bean Animated Series",
+        "subtitle": "Mr Bean is a young bean who is a member of the Bean Gang, a gang of bean-like people.",
+        "img" :"https://ap2-prod-images.disco-api.com/2022/05/02/03278b75-c604-4079-9729-d2b1b77c8c10.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id" : 28,
+        "title" : "Ben 10",
+        "subtitle" : "Ben discovers an alien watch that allows him to transform into aliens.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/10/21/e3e7ba89-144e-489f-bc33-009de1c51235.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id" : 29,
+        "title":"Little Singham Kal Ki Tabaahi",
+        "subtitle":"A nine-year-old boy battles evil villans",
+        "img": "https://ap2-prod-images.disco-api.com/2021/10/05/e2615b8b-c4a9-4570-b7b3-d17b7fe582cc.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id" :30,
+        "title":"Little Singham Kal Ki Tabaahi",
+        "subtitle":"A nine-year-old boy battles evil villans",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/02/18/80a8bf16-5be9-42a8-89fe-b27427454dbe.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id" : 31,
+        "title": "Return of Little Singham",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img":"https://ap2-prod-images.disco-api.com/2021/12/13/99da175a-6dc6-4cf5-b128-f84e5ead1d77.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id": 32,
+        "title": "Kans aur Kaal Ka Raaj",
+        "subtitle" :"A nine-year-old battle against evil villains that are out to create chaos.",
+        "img":"https://ap2-prod-images.disco-api.com/2021/12/08/5ba7be79-71d5-4238-b4f5-56be697e1875.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id": 33,
+        "title" : "Little Singham Paap Aur Panya KA Mahasangram",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img" :"https://ap2-prod-images.disco-api.com/2022/03/09/4397fa6d-0a70-48a5-b873-b0af5e88cc51.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id": 34,
+        "title" :"Little Singham Pyramids aur Ka Rahasya",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img": "https://ap2-prod-images.disco-api.com/2022/04/29/b368b6b2-ce0c-41f3-9673-fa27734e533e.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id": 35,
+        "title":"Super Squad In Kojima Island",
+        "subtitle" : "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img" : "https://ap2-prod-images.disco-api.com/2022/04/04/c5c30470-e16a-4d2b-b721-e63e8019f8db.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id": 36,
+        "title" : "Shaitan Ka Toofan",
+        "subtitle": "A nine-year-old battle against evil villains that are out to create chaos.",
+        "img":"https://ap2-prod-images.disco-api.com/2022/05/08/fee86bc0-b7c1-4967-9c40-3658f8f8cdb7.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id": 37,
+        "title": "Mr Bean Animated Series",
+        "subtitle": "Mr Bean is a young bean who is a member of the Bean Gang, a gang of bean-like people.",
+        "img" :"https://ap2-prod-images.disco-api.com/2022/05/02/03278b75-c604-4079-9729-d2b1b77c8c10.jpeg?bf=0&f=jpg&p=true&q=85&w=1900"
+      },
+      {
+        "id": 38,
+        "title" : "The Powerpuff Girls",
+        "subtitle" : "Blossom, Bubbles and Buttercup form the superhero team The Powerpuff Girls!",
+        "img" :"https://ap2-prod-images.disco-api.com/2021/10/21/ef57f4ee-22b7-4ce1-8084-b858d82bbc3c.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":39,
+        "title" : "baby Looney Tunes",
+        "subtitle" : "Bugs, Daffy, Sylvester, Tweety and the gang have adventures as toddlers.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/10/28/48587a0d-7b4e-4a46-97a9-1e0d161c5ccf.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":40,
+        "title" : "Horrid Henry",
+        "subtitle": "To his family's frustration, Henry is skilled at making trouble.",
+        "img" :"https://ap2-prod-images.disco-api.com/2021/05/03/ffe69674-a2da-4d2a-b3a2-296d52632a01.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":41,
+        "title" : "Swami Ayyappan",
+        "subtitle" : "Swami Ayyappan is the son of Shiva and Vishnu, born to destroy evil.",
+        "img": "https://ap2-prod-images.disco-api.com/2021/06/10/47d2a33b-86e3-443d-8a36-d05976a4855a.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":42,
+        "title" : "Hanuman: The Immortal 2",
+        "subtitle" : "Only Hanuman can stop the evil plans of the demon warrior Raaka.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/05/05/26625ecf-ee41-4395-b535-32d4f9addefb.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":43,
+        "title": "Mahayodha Kisna",
+        "subtitle" : "Kisna and his ability to solve problems with friends leads to adventures.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/07/11/126abddb-6d46-4dbb-a332-1d764c8a5e14.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":44,
+        "title" : "Mahayodha Kisna: Mahanaag",
+        "subtitle" : "Kisna and his ability to solve problems with friends leads to adventures.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/06/12/c4768e5b-40f1-4b3c-a86e-f8d232627c83.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":45,
+        "title" : "Food Factory",
+        "subtitle" : "Raw ingredients are transformed into favorite tasty treats.",
+        "img" : "https://ap2-prod-images.disco-api.com/2020/02/26/37504c86-4739-4d18-9445-31c4bd3d9ced.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":46,
+        "title" : "Seven Wonders of the Solar System",
+        "subtitle": "Physicist Brian Cox hosts this exploration of the solar system.",
+        "img" : "https://ap2-prod-images.disco-api.com/2021/01/29/884eef70-d774-46a1-9c86-5eb3cddec1cf.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":47,
+        "title" : "How It's Made",
+        "subtitle" : "How it's made is a documentary about the food industry.",
+        "img" : "https://ap2-prod-images.disco-api.com/2020/02/27/06a72e85-b00b-42fe-996f-d9879b39827f.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      },
+      {
+        "id":48,
+        "title" : "How Factories Changed The World",
+        "subtitle" : "How factories changed the world. No technological innovation has changed the world more than the factory.",
+        "img" : "https://ap2-prod-images.disco-api.com/2020/12/08/7cdc1d88-97f4-48aa-8db4-8ebbe6a8d690.jpeg?bf=0&f=jpg&p=true&q=85&w=900"
+      }
   ]
 }

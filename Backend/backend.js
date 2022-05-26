@@ -18,7 +18,7 @@ async function createNewElement(){
         let id = document.getElementById("id").value;
         let title = document.getElementById("title").value;
         let subtitle = document.getElementById("subtitle").value;
-        let image = document.getElementById("image").value;
+        let image = document.getElementById("img").value; 
         let category = document.getElementById("category").value;
         
         let body = {
@@ -38,6 +38,7 @@ async function createNewElement(){
 }
 
 function displayData(data){
+    console.log(data);
     let table = document.createElement("table");
     let thead = document.createElement("thead");
     let tbody = document.createElement("tbody");
@@ -47,13 +48,13 @@ function displayData(data){
     titleHead.innerText = "TITLE";
     let subTitleHead = document.createElement("th");
     subTitleHead.innerText = "SUBTITLE";
-    let imageLinkHead = document.createElement("th");
-    imageLinkHead.innerText = "Image Link";
+    // let imageLinkHead = document.createElement("th");
+    // imageLinkHead.innerText = "Image Link";
     let categoryHead = document.createElement("th");
     categoryHead.innerText = "CATEGORY";
     let deleteHead = document.createElement("th");
     deleteHead.innerText = "DELETE";
-    thead.append(idHead,titleHead,subTitleHead,imageLinkHead,categoryHead,deleteHead);
+    thead.append(idHead,titleHead,subTitleHead,categoryHead,deleteHead);
     data.forEach(element => {
         let tableRow = document.createElement("tr");
         let id = document.createElement("td");
@@ -62,25 +63,32 @@ function displayData(data){
         title.innerText = element.title;
         let subtitles = document.createElement("td");
         subtitles.innerText = element.subtitle;
-        let imgSrc = document.createElement("td");
-        imgSrc.innerText = element.img;
+        let img = document.createElement("td");
+        img.innerText = element.image;
         let category = document.createElement("td");
         category.innerText = element.category;
         let del = document.createElement("td");
         let delBtn = document.createElement("button");
         delBtn.innerText = "DELETE";
+        delBtn.addEventListener("click",(event)=>{
+            event.preventDefault();
+            deleteElement(element.id);
+        });
         del.append(delBtn);
-        tableRow.append(id , title,subtitles,imgSrc,category,del);
+        tableRow.append(id , title,subtitles,category,del);
         tbody.append(tableRow);
-        // delBtn.addEventListener('click',deleteElement(element.id));
     });
     table.append(thead,tbody);
     container.append(table);    
 }
-// async function deleteElement(ids){
-//     let response = await fetch(`http://localhost:3000/data/${ids}`,{
-//         method : "DELETE"
-//     });
-//     displayData();
-// }
+
+async function deleteElement(id){
+    let response = await fetch(url + "/" + id,{
+        method : "DELETE"
+    });
+    if(response.status === 200){
+        fetchData();
+    }
+}
+
 fetchData();

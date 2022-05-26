@@ -1,5 +1,4 @@
 
-
 document.querySelector("#line").addEventListener("mouseenter",()=>{
     navbarDisplay(true);
  })

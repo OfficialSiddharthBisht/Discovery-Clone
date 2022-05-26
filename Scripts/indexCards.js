@@ -1,6 +1,8 @@
 let container = document.getElementById("container");
 let url = "http://localhost:3000/data";
 
+let headings = ["Shows You Love" , "Newly Added Shows" , "Stream For Free Now" ,"Coming Soon On Discovery+", "Your Favourites , Aab Hindi Mein"];
+
 function fetchData(){
     fetch(url)
     .then((response)=>{
@@ -14,6 +16,7 @@ function fetchData(){
     });
 }
 function displayCard(data){
+    let i = 0;
     data.forEach(element => {
         let cardRow = document.createElement("div");
         let card = document.createElement("div");
@@ -23,7 +26,8 @@ function displayCard(data){
         let image= document.createElement("img");
         image.src = element.img;
         card.append(title,image);
-        container.append(card);        
+        cardRow.append(card);
+        container.append(cardRow)        
     });
 }
 fetchData();
