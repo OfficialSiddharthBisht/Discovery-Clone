@@ -151,7 +151,7 @@ let object=
        {
          index=0;
        }
-    }, 3000);
+    }, 4000);
     
         // displayClosure(object)
       function displayClosure(objectData,index){
