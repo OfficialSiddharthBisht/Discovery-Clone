@@ -1,7 +1,7 @@
 let container = document.getElementById("card-container");
 let url = "http://localhost:3000/kids";
 
-let headings = ["Everyone's Watching" , "Little Singham VS Kaal" , "Best of Little Singham" ,"Top Toons", "Animated Blockbusters", "Fun Science And Engineering" ,"Discovery Our Animal Friends"];
+let headings = ["Everyone's Watching" , "Little Singham VS Kaal" , "Best of Little Singham" ,"Top Toons", "Animated Blockbusters", "Fun Science And Engineering" ,"Everyone's Watching" , "Little Singham VS Kaal" , "Best of Little Singham" ,"Top Toons", "Animated Blockbusters", "Fun Science And Engineering"];
 
 function fetchData(){
     fetch(url)
