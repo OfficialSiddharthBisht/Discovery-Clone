@@ -21,20 +21,23 @@ body{
     height: 30px;
     margin-top: 3px;
   }
-  #fourthbox{
-    border:1px solid red;
-
+  #fourthBox{
+    margin :0 0 0 4%;
   }
   #fourthBox>div{
     display: flex;
+    /* border: 1px solid green; */
+    /* padding: 2% 2% 2% 2%; */
     gap: 7px;
-    margin-left:10%;
+    border-bottom: .1px solid rgba(245, 245, 245, 0.135);
+    
+    /* margin-left:10%; */
     /* border:1px solid red; */
     margin-left: 3%;
 
   }
   #fourthBox>div>input{
-    padding: 10px;
+    padding: 10px 0;
     width: 350px;
     background-color: #121317;
     font-size: 16px;
@@ -43,17 +46,16 @@ body{
     border: none;
     outline: none;
   }
+  #secondBox{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+   
+  }
   #secondBox>img{
     width: 200px;
+    
   }
-  #fourthBox>hr{
-    border: .1px solid rgba(245, 245, 245, 0.135);
-    margin-bottom: 0;
-    width:380px;
-    margin-left: 6%;
-    margin-top: 0%;
-
-  }
+  
   #firstBox>div{
    /* border: 1px solid red; */
    width:25px;
@@ -65,30 +67,41 @@ body{
     width:70%;
 
   }
-  #thirdBox>div{
+#thirdBox{
     /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     gap: 25px;
     width: 120%;
-    margin-left: -20%;
+    margin-left: 50px;
 
   }
-  #thirdBox>div>a:hover{
+  #thirdBox>a:hover{
     color:white;
   }
-  #thirdBox>div>a{
+  #thirdBox>a{
     text-decoration: none;
     /* color: white; */
     color:#838991;
   }
+  
   #navBar>div{
     display: flex;
     align-items: center;
     gap: 10px;
   }
+  #fifthBox{
+    width : 10%;
+    /* border: 1px solid green; */
+    margin: 0 2%;
+    
+  }
+  #fifthBox{
+    width:200px;
+  }
   #fifthBox>button{
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
     font-weight: 600;
     background-color: #237ce6;
     border: none;
@@ -97,7 +110,7 @@ body{
     font:16px Roboto-Regular,Sans-Serif;
   }
   .navbar-hamburger{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:200px;
     margin-left: 2%;
     margin-top: 1%;
