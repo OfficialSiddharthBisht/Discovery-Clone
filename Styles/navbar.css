@@ -87,6 +87,9 @@ body{
     align-items: center;
     gap: 10px;
   }
+  #fourthBox>div>input{
+    color: white;
+  }
   #fifthBox>button{
     padding: 10px;
     font-weight: 600;

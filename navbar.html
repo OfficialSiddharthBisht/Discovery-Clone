@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar</title>
     <link rel="stylesheet" href="./Styles/navbar.css">
+    <link rel="stylesheet" href="./Styles/search.css">
 
 </head>
 <body>
  
-    <nav>
+    <nav style="border: red 2px solid;">
         <div id="navBar">
           <div>
             <div id="firstBox">
@@ -39,7 +40,7 @@
           <div>
             <div id="fourthBox">
               <div>
-                <input type="text" placeholder="Search for a show, episode, shorts etc.">
+                <input id="searchInput" type="text" onkeyup="processChange()" placeholder="Search for a show, episode, shorts etc.">
                 <img src="./search.png" alt="">
               </div>
               <hr>
@@ -50,8 +51,11 @@
           </div>
           </div>
       </nav>
-       <div id="navbarhamburgerbox"></div>
+       <div id="navbarhamburgerbox" style="border: rgb(0, 255, 64) 2px;"></div>
+
 
 </body>
 <script src="./Scripts/navbar.js"></script>
+<script src="./Scripts/search.js"></script>
+
 </html>
