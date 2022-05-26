@@ -5,11 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>navbar</title>
-
-    <link rel="stylesheet" href="./Styles/navbar.css">
-    <link rel="stylesheet" href="./Styles/search.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+  </head>
+  <body>
     <nav>
       <div id="navBar">
         <div id="firstBox">
@@ -32,31 +30,24 @@
           <a href="#">Kids</a>
           <a href="#">Shorts</a>
           <a href="#">Mindblown</a>
-          <a href="#">Explore</a>
+          <a href="#">Premium</a>
         </div>
 
         <div id="fourthBox">
           <div>
-            <div id="fourthBox">
-              <div>
-                <input id="searchInput" type="text" onkeyup="processChange()" placeholder="Search for a show, episode, shorts etc.">
-                <img src="./search.png" alt="">
-              </div>
-              <hr>
-            </div>
-            <div id="fifthBox">
-              <button onclick="sign()">Sign In </button>
-              <button>Sign In</button>
-            </div>
+            <input type="text" placeholder="Search for a show, episode, shorts etc." />
+            <img src="./search.png" alt="" />
           </div>
-          </div>
-      </nav>
-       <div id="navbarhamburgerbox" style="border: rgb(0, 255, 64) 2px;"></div>
-
-
-</body>
-<script src="./Scripts/navbar.js"></script>
-<script src="./Scripts/search.js"></script>
-
+         
+        </div>
+               
+        <div id="fifthBox">
+          <button onclick="sign()">Sign In</button>
+        </div>
+      </div>
+    </nav>
+    <div id="navbarhamburgerbox"></div>
+  </body>
+  <script src="./Scripts/navbar.js"></script>
+  <!-- all data -->
 </html>
-
