@@ -90,6 +90,7 @@ body{
     align-items: center;
     gap: 10px;
   }
+
   #fifthBox{
     width : 10%;
     /* border: 1px solid green; */
@@ -98,7 +99,7 @@ body{
   }
   #fifthBox{
     width:200px;
-  }
+}
   #fifthBox>button{
     padding: 10px 10px 10px 10px;
     width: 100%;
