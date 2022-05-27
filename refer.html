@@ -8,24 +8,28 @@
 	<style>
 		nav{
 			background-color: black;
-			height:3%;
+			height:2%;
 			margin-left: 0%;
+			margin-top: 0cm;
 		}
 		img{
-			height:100%;
+			height:120px;
 			margin-left: 0%;
 		}
 		body{
-			background-color: rgb(60, 59, 59);
+			background-color: #1a1c21;
+			/* background-color: rgb(56, 62, 71); */
 		}
 		#box{
+			
 			background-color: black;
-			margin-top: 4%;
-			height: 350px;
-			width:450px;
+			margin-top: 1%;
+			height: 300px;
+			width:50%;
 			border: 1px;
 			border-color: blueviolet;
-			margin-left: 36%;
+			margin-left: 30%;
+			padding-left: 5%;
 			color:aliceblue
 			
 
@@ -41,12 +45,15 @@
 		#1{
 			font-size: 35px;
 		}
+		#2{
+			margin-left: 30%;
+		}
 		#box2{
-			height: 7%;
+			height: 5%;
 			padding-left: 2%;
 			border:1px solid rgb(255, 253, 253);
 			width: 96%;
-			padding-top: 4%;
+			padding-top: 1%;
 			font-size:18px;
 			margin-bottom: 6%;
 		}
@@ -56,19 +63,29 @@
 			color: beige;
 		}
 		input{
-        padding-left: 0%;
-        height:40px;
-        Width:100%;
-        text-align: left;
-        background-color: beige;
-        text-decoration-color: white;
-		}
+		text-align: left;
+		height: 40px;
+		width: 98%;
+		border-right: none;
+		border-bottom: 1px solid;
+		border-color: #41435b;
+		background-color: transparent;
+		border-radius: 0px;
+		padding: 15px 0 12px 0;
+		box-sizing: border-box;
+		outline: none;
+		box-shadow: none;
+		font-color:white;
+		font-size: 16px;
+		color: aliceblue;
+		margin-bottom: 10px;
+			}
 		
 		button{
 			background-color: rgb(64, 67, 222);
 			color: white;
             height:50px;
-            width: 180px;
+            width: 80%;
             margin-top: 4%;
 		}
         
@@ -84,15 +101,16 @@
 	<div id="box">
 		<div id="1">
 			
-			<p>  Discovery+     </p> 
+			<nav id="2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-Kt8mwW2tLWWUZAB0lIO7wZAbDWrYq4cTw&usqp=CAU" alt=""></nav>
 		</div>
 		
-			<div id="box2">
-				Subscriptipn Price  399
-			</div>
-			Payment Methods
-
-			<p id="info">•Your card details will be encrypted before processed through a secure server.</p>
+			<!-- <div id="box2">
+				Apply Voucher
+			</div> -->
+			<div class="form-body" id="boxes">
+				Redeem Voucher
+				<input type="text" class="card-number" placeholder="Enter Promo code">
+			
 	
     <button><a href="kdnskn">Poceed to Checkout</a></button>
 </div>
