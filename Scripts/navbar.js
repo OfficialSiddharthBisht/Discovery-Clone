@@ -75,6 +75,7 @@ function navbarDisplay(isTrue)
     card.append(innerBox,bottomBox)
    
     document.querySelector("#navbarhamburgerbox").append(card);
+   //  document.querySelector("#navBelowDiv").append()
  }else{
      
     
@@ -86,7 +87,137 @@ function navbarDisplay(isTrue)
 // navbar end
 
 // sign in
+  let userName= document.querySelector("#signIn");
+  fetch(`http://localhost:3000/userAllDetails`).then(res=>res.json()).then(result=>{
+     console.log(result)
+     userName.innerText=result[result.length-1].name;
+     userName.style.hover
+
+  });
+
+  
+
+  document.querySelector("#signIn").addEventListener("mouseenter",()=>{
+   signDisplay(true);
+})
+
+document.querySelector("#signIn").addEventListener("mouseleave",()=>{
+   setTimeout(()=>{
+      signDisplay(false);
+   },1500)
+   })
+
+   function signDisplay(isTrue)
+   {
+      let signDox=document.querySelector(".signOutDiv");
+      let S =document.getElementById("signIn")
+
+      // console.log(S.innerHTML === "Sign In");
+
+    if(isTrue && !signDox && S.innerHTML !== "Sign In")
+    {
+        let signOutDiv=document.createElement("div")
+        signOutDiv.setAttribute("class","signOutDiv")
+        signOutDiv.innerText="Sign Out"
+        signOutDiv.addEventListener("click",()=>{
+           let S =document.getElementById("signIn")
+           S.innerText = "Sign In"
+        })
+
+        
+        document.querySelector("#signInBox").append(signOutDiv)
+
+    }
+    else{
+       let signDisplayBox=document.querySelector("#signInBox");
+       signDisplayBox.innerHTML="";
+    }
+   }
+
+  
 function sign()
 {
    window.location.href="sign.html"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// search 
+
+
+function search() {
+   let searchInput = document.getElementById("searchInput");
+   console.log("inside", searchInput.value);
+   fetch(`https://marred-helpful-fruit.glitch.me/data?title_like=${searchInput.value}`)
+   .then(res=>res.json())
+   .then(data=>{
+     document.querySelector("#searchBox").innerHTML = ""
+       console.log(data)
+       let searchDropdown = document.createElement("div")
+       
+       let P = document.createElement("h1")
+       let c = 0
+       data.forEach(element => {
+         if (c++ < 3) {
+             let card = document.createElement("div");
+             card.setAttribute("class","searchCard");
+             
+
+             let searchImgBox = document.createElement("div")
+             searchImgBox.setAttribute("class","searchImgBox")
+             
+             let image= document.createElement("img");
+             image.src = element.img;
+             searchImgBox.append(image);
+             
+             let titleSubtitleDiv=document.createElement("div")
+             titleSubtitleDiv.setAttribute("class","titleSubtitleDiv");
+            
+             let title = document.createElement("h3");
+             title.innerText = element.title;
+             
+             let subtitle= document.createElement("p");
+             subtitle.innerText = element.subtitle;
+
+            //  let hrLine= document.createElement("hr");
+            //  hrLine.setAttribute("class","hr")
+
+             titleSubtitleDiv.append(title,subtitle)
+             searchImgBox.append(image)
+             card.append(searchImgBox,titleSubtitleDiv);
+             P.append(card)        
+         }
+       });
+       searchDropdown.append(P)
+       document.querySelector("#searchBox").append(searchDropdown);
+   })
+   
+}
+
+
+function debounce(func, timeout = 300){
+   let timer;
+   return (...args) => {
+     clearTimeout(timer);
+     timer = setTimeout(() => { func.apply(this, args); }, timeout);
+   };
+ }
+ const processChange = debounce(() => search());
+
+//  search click redirect
+ function searchClicked()
+ {
+    
+    window.location.href=""
+ }
