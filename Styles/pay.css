@@ -1,6 +1,100 @@
+body{
+    
+    background-color: #1A1C21;
+}
 #logoPicture{
     /* border: 1px solid black; */
     background-color: #121317;
     padding-top: 10px;
     padding-bottom: 10px;
     }
+    #payment{
+        height: 600px;
+        width:350px;
+        margin-top: 20px;
+        border: 1px solid red;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #payment>h1{
+        text-align: center;
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+
+
+    }
+    #rupees{
+        border: 1px solid black;
+        height:50px;
+        display: flex;
+        justify-content: space-between;
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+    
+    }
+    #paymentMethods{
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+    }
+    #creditCard{
+        border: 1px solid red;;
+        height:60px;
+        margin-bottom: 10px;
+        /* display: flex; */
+    }
+    #creditCard>p{
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+    }
+    #creditImage{
+        border: 1px solid blue;
+        display: flex;
+        height:20px;
+        gap:1px;
+        margin-top: -16px;
+    }
+    #creditImage>img{
+        width: 40px
+    }
+    #payVia{
+        border: 1px solid purple;
+        margin-bottom: 10px;
+
+    }
+    #payVia>p{
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+    }
+    #enterCode{
+        border: 1px solid green;
+        margin-bottom: 10px;
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+    }
+    #paymentWill{
+        border: 1px solid red;
+        background-color: #383e47;
+    }
+    #paymentWill>p{
+        color:#838991;
+        text-align: justify;
+        font-size:18px roboto-regular,sans-serif;  
+    }
+     #yourSubscription{
+    background-color: #383e47;
+     }
+    #yourSubscription>p{
+        color:#838991;
+        text-align: justify;
+        font-size:18px roboto-regular,sans-serif;  
+    }
+    #youCan{
+      background-color: #383e47;
+    }
+    #youCan>p{
+         color:#838991;
+         text-align: justify;
+
+         font-size:18px roboto-regular,sans-serif;   
+    }
+
