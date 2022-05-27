@@ -8,10 +8,10 @@ body{
     padding-bottom: 10px;
     }
     #signBox{
-        /* border: 1px solid red; */
+        border: 1px solid red;
         width: 300px;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 60px;
     }
     #signBox>h3{
         color:rgb(232,230,227);
@@ -89,10 +89,15 @@ body{
         margin-bottom: 5px;
     }
     #mobileNumber{
-        margin-bottom: 5px;
+        margin-bottom: 3px;
     }
     #password{
         margin-bottom: 5px;
+        border: 1px solid blue;
+    }
+    #getOTP{
+        margin-top: 10px;
+        border: 1px solid red;
     }
 
 
