@@ -6,15 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/index.css">
     <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/landingpage.css">
     <title>discovery+</title>
 </head>
 <body>
     <div id="navbar"></div>
+    <div id="slideshow-place">
+        <div id="main-closure"></div>
+    </div>
+    <div class="container-of-card">
+        <div id="top-card"></div>
+        <div id="card-container"></div>
+        <script src="Scripts/cards.js"></script>
+    </div>
+
+    <div id="footer-last"></div>
     <script type="module">
         import navbar from './Modules/navbarModule.js';
+        import footer from './Modules/footerModule.js';
         let nav = document.getElementById("navbar");
+        let foo = document.getElementById("footer-last");
         nav.innerHTML = navbar();
+        foo.innerHTML = footer();
     </script>
+    <!-- All scripts link here -->
     <script src="./Scripts/navbar.js"></script>
+    <script src="./Scripts/landingpage.js"></script>
 </body>
 </html>
