@@ -207,11 +207,7 @@ body{
     margin-left: 6%;
     text-align: center;
   }
-
-  #navBelowDiv{
-    /* border: 1px solid green; */
-
-  }
+ 
   #signInBox{
    /* border: 1px solid red; */
    background-color: wheat;
@@ -222,6 +218,13 @@ body{
    
 
   }
+
+  /* search css */
+
+  #searchInput{
+    color: #ffffff;
+  }
+
   #searchBox{
      /* border: 1px solid purple; */
      display: flex;
@@ -229,13 +232,9 @@ body{
    z-index: 1;
    top:50px;
    right: 11%;
-   width:29%;
-   height: 40%;
+  
    background-color:#000000;
    /* margin-top: -2%; */
-
-
-
 
   }
 
@@ -246,7 +245,7 @@ body{
     width:100%;
     display: flex;
     /* gap:2%; */
-    margin-top: -5%;
+    margin-top: 5%;
     margin-bottom: 10%;
     /* border-bottom: .1px solid rgba(245, 245, 245, 0.135); */
 
@@ -262,6 +261,10 @@ body{
     height: 60px;
 
   }
+  
+  /*  search css end*/
+
+
   .titleSubtitleDiv{
     /* border:1px solid green; */
     
