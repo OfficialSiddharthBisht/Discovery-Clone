@@ -1,12 +1,18 @@
+// let line = document.getElementById("line");
+// line.addEventListener("mouseenter",()=>{
+//     navbarDisplay(true);
+//  })
 
+// line.addEventListener("mouseleave",()=>{
+//        navbarDisplay(false);
+//     })
 document.querySelector("#line").addEventListener("mouseenter",()=>{
-    navbarDisplay(true);
- })
+   navbarDisplay(true);
+})
 
- document.querySelector("#line").addEventListener("mouseleave",()=>{
-       navbarDisplay(false);
-    })
-
+document.querySelector("#line").addEventListener("mouseleave",()=>{
+      navbarDisplay(false);
+   })
 function navbarDisplay(isTrue)
 {
   

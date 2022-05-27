@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="./Styles/navbar.css" />
     <title>discovery+</title>
 </head>
 <body>
-
+    <div id="navbar"></div>
+    <script type="module">
+        import navbar from './Modules/navbarModule.js';
+        let nav = document.getElementById("navbar");
+        nav.innerHTML = navbar();
+    </script>
+    <script src="./Scripts/navbar.js"></script>
 </body>
 </html>
