@@ -40,3 +40,14 @@ body {
   .container-of-card{
     margin-top: 50px;
   }
+  /* #top-card .card-row{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-between;
+    margin: 2px solid red;
+    background-color: aqua;
+    width: 100%;
+  }
+  #top-card *{
+    justify-content: space-between;
+  } */

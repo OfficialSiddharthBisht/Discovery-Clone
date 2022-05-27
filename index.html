@@ -31,16 +31,20 @@
       foo.innerHTML = footer();
       //
       function addScript() {
-        return new Promise((resolve, reject) => {
+          setTimeout(() => {
           var script = document.createElement("script");
-          script.type = "text/javascript";
-          script.onload = function () {
-            resolve(1);
-          };
+          script.type = "text/javascript"; 
           script.src = "./Scripts/navbar.js";
-          document.body.append(script);
-        });
-      }
+          document.body.append(script); 
+          }, 3000);
+        // return new Promise((resolve, reject) => {
+        
+        //   script.onload = function () {
+        //     resolve(1);
+        //   };
+ 
+        };
+        addScript();
       //
     </script>
     <!-- All scripts link here -->
