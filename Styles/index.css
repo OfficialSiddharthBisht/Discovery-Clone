@@ -36,6 +36,9 @@ body {
   #top-card{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    
   }
-  
+  .card-title{
+    display: hidden;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }

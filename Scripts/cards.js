@@ -41,6 +41,7 @@ function displayCard(data){
         let card = document.createElement("div");
         card.setAttribute("class","card");
         let title = document.createElement("p");
+        title.setAttribute("class","card-title");
         title.innerText = data[j].title;
         let image= document.createElement("img");
         image.src = data[j].img;
