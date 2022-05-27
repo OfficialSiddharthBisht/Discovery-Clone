@@ -1,5 +1,5 @@
 let container = document.getElementById("container");
-let url = "http://localhost:3000/data";
+let url = "https://marred-helpful-fruit.glitch.me/data";
 
 let headings = ["Shows You Love" , "Newly Added Shows" , "Stream For Free Now" ,"Coming Soon On Discovery+", "Your Favourites , Aab Hindi Mein"];
 
