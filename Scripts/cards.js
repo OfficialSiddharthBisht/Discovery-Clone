@@ -44,8 +44,12 @@ function displayCard(data){
         title.setAttribute("class","card-title");
         title.innerText = data[j].title;
         let image= document.createElement("img");
+        let subTitle = data[j].subtitle;
         image.src = data[j].img;
         card.append(title,image);
+        card.addEventListener("click",()=>{
+            
+        })
         cardRow.append(card);
        }
        container.append(cardRow) 

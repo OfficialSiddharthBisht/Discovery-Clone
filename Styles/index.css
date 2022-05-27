@@ -40,6 +40,23 @@ body {
   .container-of-card{
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 800px) {
+    .card-row{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .card-row{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .card {
+      width: 100%;
+    }
+  }
   /* #top-card .card-row{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
