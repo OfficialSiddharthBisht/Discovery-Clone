@@ -159,14 +159,13 @@ function sign()
 function search() {
    let searchInput = document.getElementById("searchInput");
    console.log("inside", searchInput.value);
-   fetch(`https://marred-helpful-fruit.glitch.me/data?title_like=${searchInput.value}`)
+   if(searchInput.value){
+      fetch(`https://marred-helpful-fruit.glitch.me/data?title_like=${searchInput.value}`)
    .then(res=>res.json())
    .then(data=>{
      document.querySelector("#searchBox").innerHTML = ""
        console.log(data)
        let searchDropdown = document.createElement("div")
-       
-       let P = document.createElement("h1")
        let c = 0
        data.forEach(element => {
          if (c++ < 3) {
@@ -196,12 +195,17 @@ function search() {
              titleSubtitleDiv.append(title,subtitle)
              searchImgBox.append(image)
              card.append(searchImgBox,titleSubtitleDiv);
-             P.append(card)        
+             searchDropdown.append(card)     
          }
        });
-       searchDropdown.append(P)
+       
        document.querySelector("#searchBox").append(searchDropdown);
    })
+   }
+   else{
+     document.querySelector("#searchBox").innerHTML = ""
+   }
+   
    
 }
 
