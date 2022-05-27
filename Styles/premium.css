@@ -3,11 +3,11 @@
     margin:0;
 }
 
-.premimum_ini{
+.premimum-ini{
     position: relative;
     min-height: 700px; 
 }
-.premi_background {
+.premi-background {
     position: absolute;
     inset: 0px;
     background-size: cover;
@@ -15,13 +15,13 @@
     background-color: #1a1c21;
     min-height:100%; 
 }
-.premi_logo {
+.premi-logo {
    width: 344px;
    margin-left: 35%;
 
    
 }
-.background_lighting {
+.background-lighting {
         background-image: linear-gradient(rgba(26, 28, 33, 0.72), rgba(26, 28, 33, 0.95));
         position: relative;
         z-index: 1;
@@ -30,11 +30,11 @@
         background-position: center center;
         min-height: 100%; 
 }
-.box_inside_premium {
+.box-inside-premium {
 margin: 80px 0px;
 }
 
-.heading_evertything {
+.heading-evertything {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -42,7 +42,7 @@ margin: 80px 0px;
     justify-content: center;
     padding: 23px 0px;
 }
-.experience_real {
+.experience-real {
     font-family: Roboto-Medium, sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -52,13 +52,13 @@ margin: 80px 0px;
     color: rgb(255, 255, 255);
     width: 700px;
 }
-.plan_in_premium {
+.plan-in-premium {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
     justify-content: center;
 }
-.button_plan_month {
+.button-plan-month {
     padding: 18px 24px 0px;
     border: none;
     border-radius: 6px;
@@ -72,60 +72,73 @@ margin: 80px 0px;
     -webkit-box-align: center;
     align-items: center;
     cursor: pointer;
-}
-.button_plan_month2 {
-    padding: 5px 24px 0px;
-    border: none;
-    border-radius: 6px;
-    width: 250px;
-    height: 140px;
-    background-image: linear-gradient(121deg, rgb(33, 117, 217) 2%, rgb(39, 137, 255) 97%);
-    margin: 0px 12px;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    cursor: pointer;
-}
-.button_plan_year {
-    padding: 5px 24px 0px;
-    border: none;
-    border-radius: 6px;
-    width: 250px;
-    height: 140px;
-    background-image: linear-gradient(121deg, rgb(33, 117, 217) 2%, rgb(39, 137, 255) 97%);
-    margin: 0px 12px;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    cursor: pointer;
-}
-.button_plan_year2 {
-    padding: 18px 24px 0px;
-    border: none;
-    border-radius: 6px;
-    width: 250px;
-    height: 120px;
-    background-color: rgb(84, 90, 98);
-    margin: 0px 12px;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    cursor: pointer;
-}
-.plan_innercontent {
     font-family: Roboto-Regular, sans-serif;
     font-size: 18px;
     text-align: left;
     font-weight: 500;
     color: rgb(191, 197, 205);
+    padding-bottom: 5px
 }
-.monthly_price {
+.button-plan-month2 {
+    padding: 5px 24px 0px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(121deg, rgb(33, 117, 217) 2%, rgb(39, 137, 255) 97%);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+}
+.button-plan-year {
+    padding: 5px 24px 0px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(121deg, rgb(33, 117, 217) 2%, rgb(39, 137, 255) 97%);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button-plan-year2 {
+    padding: 18px 24px 0px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(84, 90, 98);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .plan-innercontent {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(191, 197, 205);
+} */
+.monthly-price {
 display: flex;
 -webkit-box-align: center;
 align-items: center;
@@ -134,7 +147,7 @@ justify-content: center;
 width: 160px;
 flex-direction: column;
 }
-.amount_plan{
+.amount-plan{
 -webkit-box-align: center;
     align-items: center;
     display: flex;
@@ -142,15 +155,15 @@ flex-direction: column;
     justify-content: center;
     margin-top: 0px;
 }
-.monthly, .amount_plan{
+/* .monthly, .amount-plan{
     font-family: Roboto-Regular, sans-serif;
     font-size: 18px;
     text-align: left;
     font-weight: 500;
     color: rgb(191, 197, 205);
     padding-bottom: 5px;
-}
-.recommended_plan{
+} */
+.recommended-plan{
     font-family: Roboto-Regular, sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -158,7 +171,7 @@ flex-direction: column;
     letter-spacing: normal;
     color: rgb(255, 164, 36);
 }
-.annual, .annual_amount_plan{
+.annual, .annual-amount-plan{
     font-family: Roboto-Bold, sans-serif;
     font-size: 24px;
     line-height: 1.33;
@@ -174,7 +187,7 @@ flex-direction: column;
     justify-content: center;
     display: flex;
 }
-.applycoupon_inner {
+.applycoupon-inner {
     display: flex;
     border: 1.3px dashed rgb(84, 90, 98);
     background-color: rgb(26, 28, 33);
@@ -186,11 +199,11 @@ flex-direction: column;
     border-radius: 6px;
     cursor: pointer;
 }
-.percentage_icon {
+.percentage-icon {
     width: 20.5px;
     height: 20.5px;
 }
-.apply_voucher {
+.apply-voucher {
     font-family: Roboto-Regular, sans-serif;
     font-size: 16px;
     color: rgb(155, 161, 169);
@@ -204,7 +217,7 @@ flex-direction: column;
     justify-content: center;
     display: flex;
 }
-.subscribe_btn {
+.subscribe-btn {
     font-family: Roboto-Bold, sans-serif;
     font-size: 20px;
     width: 342px;
@@ -219,7 +232,7 @@ flex-direction: column;
     border-radius: 4px;
     cursor: pointer;
 }
-.style_year{
+.style-year{
     padding: 18px 24px;
     border-radius: 6px;
     width: 250px;
@@ -233,7 +246,7 @@ flex-direction: column;
     align-items: center;
     cursor: pointer;
 }
-.style_month{
+.style-month{
     padding: 18px 24px;
     border-radius: 6px;
     width: 250px;
