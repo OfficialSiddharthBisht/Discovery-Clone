@@ -9,20 +9,22 @@ function navbar(){
         </div>
       </div>
       <div id="secondBox">
-        <img
+          <a hrf="index.html">
+          <img
           src="https://www.discoveryplus.in/129c5de772422db12a69e397768bd8ec.png"
           alt="Logo"
         />
+        </a>
       </div>
 
       <div id="thirdBox">
         <div>
-        <a href="#">Home</a>
-        <a href="#">Explore</a>
-        <a href="#">Kids</a>
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="kids.html">Kids</a>
         <a href="#">Shorts</a>
-        <a href="#">Mindblown</a>
-        <a href="#">Premium</a>
+        <a href="mindblown.html">Mindblown</a>
+        <a href="premium.html">Premium</a>
       </div>
     </div>
 
