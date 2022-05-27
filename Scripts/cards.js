@@ -34,7 +34,11 @@ function fetchData(){
 function displayCard(data){
     let curr = 0;
    for(let i = 0; i < headings.length;i++){
-        container.append(headings[i])
+       let headingH2 = document.createElement("h3");
+       headingH2.innerText = headings[i];
+       headingH2.style = "margin-left: 2%";
+        container.append(headingH2);
+    
         let cardRow = document.createElement("div");
        for(let j = curr; j < curr + 4; j++){
         cardRow.setAttribute("class","card-row");
