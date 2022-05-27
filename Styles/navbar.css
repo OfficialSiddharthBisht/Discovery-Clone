@@ -213,7 +213,7 @@ body{
 
   }
   #signInBox{
-   border: 1px solid red;
+   /* border: 1px solid red; */
    background-color: wheat;
    position:absolute;
    z-index: 1;
@@ -286,6 +286,11 @@ body{
     margin-top: -1px;
     color:#B0B0B0;
   }
+  #signInBox{
+    /* border: 1px solid purple; */
+    width:7%;
+    margin-top: 1%;
+  }
   .signOutDiv{
     /* border: 1px solid red; */
     padding: 10px 10px 10px 10px;
@@ -295,8 +300,10 @@ body{
     border: none;
     color: white;
     border-radius: 6px;
+    
     font:16px Roboto-Regular,Sans-Serif;
-    margin-top: 4%;
+    /* margin-top: 4%; */
+    text-align: center;
 
   }
 
