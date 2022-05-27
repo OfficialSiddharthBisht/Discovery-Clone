@@ -1,5 +1,5 @@
 let container = document.getElementById("card-container");
-let url = "http://localhost:3000/kids";
+let url = "https://marred-helpful-fruit.glitch.me/kids";
 
 let headings = ["Everyone's Watching" , "Little Singham VS Kaal" , "Best of Little Singham" ,"Top Toons", "Animated Blockbusters", "Fun Science And Engineering" ,"Everyone's Watching" , "Little Singham VS Kaal" , "Best of Little Singham" ,"Top Toons", "Animated Blockbusters", "Fun Science And Engineering"];
 
