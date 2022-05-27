@@ -1,15 +1,32 @@
 
-document.querySelector("#signOTP").addEventListener("click",() => {
+function getData() {
+
+        document.querySelector('#getOTP').addEventListener("click",()=>{
+            var userData={
+                "name":document.querySelector("#name").value,
+                "mobile":document.querySelector("#mobileNumber").value
+            }
+            if(userData.name.length==0 && userData.mobile.length !== 10)
+            {
+                alert("Enter correct details")
+            }
+            else{
+               if(otp()){
+                document.querySelector("#signOTP").addEventListener("click",() => {
+                    signup(userData)
+                })
+               }
+
+            }
+        })
     
-    var userData={
-        "name":document.querySelector("#name").value,
-        // "email":document.querySelector("#email").value,
-        "mobile":document.querySelector("#mobileNumber").value,
-        "password":document.querySelector("#Password").value,
-    }
-    // console.log(userData);
-    signup(userData)
-})
+}
+
+getData();
+
+
+
+
 async function signup(userData)
 {
    try{
@@ -21,8 +38,7 @@ async function signup(userData)
 
     });
     let data=await result.json();
-    // console.log(data)
-    // document.querySelector("#signOTP").style.backgroundcolor="blue"
+    console.log(data)  
     
     window.location.href="landingpage.html"
     
@@ -32,7 +48,16 @@ async function signup(userData)
 }
 
 
-
+function otp()
+{
+    let otp = Math.random()
+    otp*=10000
+    otp= Math.floor(otp)
+    console.log(otp);
+   alert("Your OTP is : "+otp)
+   return otp
+//    return 
+}
  
 
   
