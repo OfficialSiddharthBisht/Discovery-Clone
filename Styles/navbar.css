@@ -218,7 +218,7 @@ body{
    /* border: 1px solid red; */
    background-color: wheat;
    position:absolute;
-   z-index: 1;
+   z-index: 10;
    top:50px;
    right: 6%;
    
@@ -301,7 +301,6 @@ body{
     margin-top: 1%;
   }
   .signOutDiv{
-    /* border: 1px solid red; */
     padding: 10px 10px 10px 10px;
     width: 100%;
     font-weight: 600;

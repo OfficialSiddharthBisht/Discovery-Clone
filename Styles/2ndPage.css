@@ -2,12 +2,13 @@ body{
     background-color: #1A1c21;
 }
  
-#bigImage{
+#bigImageDiv{
     /* border: 1px solid red; */
     margin-left:230px;
     
 }
-#bigImage>img{
+#bigImageDiv>img{
+    width: 70%;
     border-radius: 10px;
 }
 

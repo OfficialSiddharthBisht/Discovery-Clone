@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2nd Page</title>
     <link rel="stylesheet" href="./Styles/2ndPage.css">
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
 </head>
+<div id="navbar"></div>
 <body>
-    <div id="bigImage">
-        <img src="https://ap2-prod-images.disco-api.com/2022/04/15/8696f78e-3830-4a69-880b-047d5009a871.jpeg?bf=0&f=jpg&p=true&q=85&w=1000" alt="">
+    <div id="bigImageDiv">
+        <img  id="bigImage" src="" alt="">
     </div>
     <div id="legends">
-        <h1>Legends of the Ramayana with Amish</h1>
+        <h1 id="cardTitle">Legends of the Ramayana with Amish</h1>
     </div>
   
      <div id="favouriteShare">
@@ -53,7 +56,7 @@
 
         <button id="watchNow">Watch Now</button>
         <div id="AmishTripathi">
-            <p>Amish Tripathi traverses 5,000 kilometers in the footsteps of Rama.</p>
+            <p id="cardSubTitle">Amish Tripathi traverses 5,000 kilometers in the footsteps of Rama.</p>
             <p>Age Rating : U</p>
         </div>
     
@@ -67,6 +70,33 @@
             <h2>Shorts</h2>
         </div>
         <hr id="firstHr">
+        <div id="footer-last"></div>
+        <script type="module">
+          import navbar from "./Modules/navbarModule.js";
+          import footer from "./Modules/footerModule.js";
+          let nav = document.getElementById("navbar");
+          let foo = document.getElementById("footer-last");
+          nav.innerHTML = navbar();
+          foo.innerHTML = footer();
+          //
+          function addScript() {
+              setTimeout(() => {
+              var script = document.createElement("script");
+              script.type = "text/javascript"; 
+              script.src = "./Scripts/navbar.js";
+              document.body.append(script); 
+              }, 3000);
+            // return new Promise((resolve, reject) => {
+            
+            //   script.onload = function () {
+            //     resolve(1);
+            //   };
+     
+            };
+            addScript();
+          //
+        </script>
+        <script src="./Scripts/landingpage.js"></script>
 </body>
 <script src="./Scripts/2ndPage.js"></script>
 </html>

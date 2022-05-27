@@ -1,5 +1,5 @@
 let container = document.getElementById("card-container");
-let url = "http://localhost:3000/data";
+let url = "https://marred-helpful-fruit.glitch.me/data";
 
 let headings = ["Shows You Love" , "Newly Added Shows" , "Stream For Free Now" ,"Coming Soon On Discovery+", "Your Favourites , Aab Hindi Mein", "Discovery+ India Originals" ,"Kids Specials" , "Cartoons" , "Animation" , "Kids Love" , "Kids TV" ,"Fun Science And Engineering"];
 
@@ -34,7 +34,11 @@ function fetchData(){
 function displayCard(data){
     let curr = 0;
    for(let i = 0; i < headings.length;i++){
-        container.append(headings[i])
+       let headingH2 = document.createElement("h3");
+       headingH2.innerText = headings[i];
+       headingH2.style = "margin-left: 2%";
+        container.append(headingH2);
+    
         let cardRow = document.createElement("div");
        for(let j = curr; j < curr + 4; j++){
         cardRow.setAttribute("class","card-row");
@@ -48,7 +52,9 @@ function displayCard(data){
         image.src = data[j].img;
         card.append(title,image);
         card.addEventListener("click",()=>{
-            
+            console.log(data[j],JSON.stringify(data[j]))
+            localStorage.setItem("CardData", JSON.stringify(data[j]))
+            location.href = "../2ndPage.html"
         })
         cardRow.append(card);
        }

@@ -1,6 +1,6 @@
 let container = document.getElementById("mindblown-card-container");
 
-let midblownUrl = "http://localhost:3000/mindblown";
+let midblownUrl = "https://marred-helpful-fruit.glitch.me/mindblown";
 
 function fetchData(){
     fetch(midblownUrl)
