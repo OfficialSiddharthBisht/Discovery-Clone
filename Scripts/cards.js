@@ -10,27 +10,27 @@ function fetchData(){
     })
     .then((response)=>{
         displayCard(response);
-        displayTopCard(response);
+        // displayTopCard(response);
     })
     .catch((error)=>{
         console.log(error);
     });
 }
 // ! Not finished yet
-function displayTopCard(data){
-    let topCard = document.getElementById("top-card");
-    let cardRow = document.createElement("div");
-    for(let j = 25; j < 32; j++){
-     cardRow.setAttribute("class","card-row");
-     let card = document.createElement("div");
-     card.setAttribute("class","card")
-     let image= document.createElement("img");
-     image.src = data[j].img;
-     card.append(image);
-     cardRow.append(card);
-    }
-    topCard.append(cardRow) 
-}
+// function displayTopCard(data){
+//     let topCard = document.getElementById("top-card");
+//     let cardRow = document.createElement("div");
+//     for(let j = 25; j < 32; j++){
+//      cardRow.setAttribute("class","card-row");
+//      let cardT = document.createElement("div");
+//      cardT.setAttribute("class","cardT")
+//      let image= document.createElement("img");
+//      image.src = data[j].img;
+//      cardT.append(image);
+//      cardRow.append(cardT);
+//     }
+//     topCard.append(cardRow) 
+// }
 function displayCard(data){
     let curr = 0;
    for(let i = 0; i < headings.length;i++){
