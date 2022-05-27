@@ -8,6 +8,7 @@
 //     })
 document.querySelector("#line").addEventListener("mouseenter",()=>{
    navbarDisplay(true);
+   console.log("working");
 })
 
 document.querySelector("#line").addEventListener("mouseleave",()=>{

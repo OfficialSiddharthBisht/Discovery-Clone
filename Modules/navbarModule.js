@@ -45,6 +45,7 @@ function navbar(){
   <div id="searchBox"></div>
   <div id="signInBox"></div>
 
-  </div>`
+  </div>
+  `
 }
 export default navbar;

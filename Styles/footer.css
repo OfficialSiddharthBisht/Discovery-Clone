@@ -1,4 +1,4 @@
-p {
+#footer p{
     font-size: 13px;
     margin-bottom:8px!important
 }
@@ -53,6 +53,6 @@ p {
           display:none
         }
 }
-p:hover{
+#footer p:hover{
     color:white !important
 }
