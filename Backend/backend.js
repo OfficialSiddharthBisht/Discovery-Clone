@@ -1,6 +1,6 @@
 let container = document.getElementById("backend-container");
 
-let url = "http://localhost:3000/data";
+let url = "https://marred-helpful-fruit.glitch.me/data";
 function fetchData(){
     fetch(url)
     .then((response)=>{
