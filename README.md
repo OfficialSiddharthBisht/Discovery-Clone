@@ -31,16 +31,34 @@
 - `Home Page`: User can see the various discovery+ series and content.
 - `SignIN Page`: User details validated using local storage.
 - `Explore Page`: User can see different channels acquired by Discovery Channel. 
-- `Kids Page` : User can see and buy the skin related products.
-- `Mindblown Page` : User can see the various Hair related brand names and expert tips and advice for the hair.
-- `Search Functionality In Navbar`: User can see or remove products added in the cart.
-- `Specific Shows Pages`: Users can add or remove products to the wishlist.
-- `Buy Premium Page`: Users can add the delivery address which will be stored to the backend.
-- `Payment Page`:  Users can add their payment details and can see premium content page accessable.
-- `Additional Features` : Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
+- `Kids Page` : User can see kids content.
+- `Mindblown Page` 
+- `Search Functionality In Navbar`:
+- `Specific Shows Pages`: 
+- `Buy Premium Page`: 
+- `Payment Page`:
+- `Additional Features` : 
 
 ---
-### How to run this project 
-- `step-1`: Use git clone command to clone this project.
-- `step-2`: Next run npm install in your terminal to install all the dependencies required to run for this project.
-- `step-3`: Then run npm start to start this project. 
+### Screenshots : 
+- 'Home Page':
+
+- 'Premium Page' :
+![image](https://user-images.githubusercontent.com/80667996/181263362-27fc4108-b50a-4eaf-92c3-3decb53fae0d.png)
+- 'Sign In Page' :
+![image](https://user-images.githubusercontent.com/80667996/181263754-695a23d9-c53f-4693-acac-ce9a6c6ee24e.png)
+- 'Explore Page' :
+![image](https://user-images.githubusercontent.com/80667996/181263891-09304403-f569-472c-a001-615d957fe8cc.png)
+- 'MindBlown Page' :
+![image](https://user-images.githubusercontent.com/80667996/181264113-20b7771a-e45e-454d-9fdc-441e73d0be02.png)
+- 'Video Streaming Page' :
+![image](https://user-images.githubusercontent.com/80667996/181264680-5cb7e1e1-5b8b-45a1-8138-ae519bb96a17.png)
+- 'Redeem Voucher Page':
+![image](https://user-images.githubusercontent.com/80667996/181264948-7992d206-8591-4d14-b262-8b214d966dce.png)
+- 'Search Functionality' :
+![image](https://user-images.githubusercontent.com/80667996/181265868-dc135aa6-755d-41cd-becb-870c3cad2da5.png)
+
+
+
+
+
