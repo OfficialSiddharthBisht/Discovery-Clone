@@ -1,3 +1,3 @@
 # Discovery-Clone
 
-Clone of -> https://www.discoveryplus.in/home
+Deployment Link : https://officialsiddharthbisht.github.io/Discovery-Clone/
