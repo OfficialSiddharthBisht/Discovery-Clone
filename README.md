@@ -2,7 +2,7 @@
 ---
 # Welcome :wave:
 ---
-### Discovery+ (pronounced "Discovery Plus"; stylized as discovery+) is an American streaming service owned by Warner Bros. Discovery.The service focuses on factual programming drawn from the libraries of Discovery's main channel brands, as well as original series (including spin-offs of programs from Discovery's networks), and other acquired content.. It was first launched in India on March 23, 2020. 
+### Discovery+  is an American streaming service owned by Warner Bros. Discovery.The service focuses on factual programming drawn from the libraries of Discovery's main channel brands, as well as original series (including spin-offs of programs from Discovery's networks), and other acquired content.. It was first launched in India on March 23, 2020. 
 ---
 ### About this project: :raised_hands:
 
